@@ -23,9 +23,8 @@ git lfs pull --include "topo_bathy/<file>"
 
 or if no git available:
 ```
-wget https://raw.githubusercontent.com/SPECFEM/specfem-data/master/topo_bathy/<file>
+wget https://github.com/SPECFEM/specfem-data/blob/master/topo_bathy/<file>?raw=true
 ```
 
-You can now uncompress the topography file you want using the bunzip2 command.
-You will also need to uncomment it in file setup/constants.h.in before configuring and compiling the code.
-
+You might have to rename the file and/or can now uncompress the topography file you want using the bunzip2 command.
+You will also need to uncomment it in file setup/constants.h.in before configuring and compiling the SPECFEM3D_GLOBE code.
