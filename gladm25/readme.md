@@ -38,7 +38,7 @@ git lfs pull --include "gladm25/<file>"
 
 or if no git available:
 ```
-wget https://github.com/SPECFEM/specfem-data/blob/master/gladm25/<file>?raw=true
+wget https://github.com/SPECFEM/specfem-data/blob/main/gladm25/<file>?raw=true
 ```
 
 You might have to uncompress the files you want using the bunzip2 command.

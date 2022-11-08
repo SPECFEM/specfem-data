@@ -23,7 +23,7 @@ git lfs pull --include "topo_bathy/<file>"
 
 or if no git available:
 ```
-wget https://github.com/SPECFEM/specfem-data/blob/master/topo_bathy/<file>?raw=true
+wget https://github.com/SPECFEM/specfem-data/blob/main/topo_bathy/<file>?raw=true
 ```
 
 You might have to rename the file and/or can now uncompress the topography file you want using the bunzip2 command.

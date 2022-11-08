@@ -34,7 +34,7 @@ git lfs pull --include "spiral1.4/<file>"
 
 or if no git available:
 ```
-wget https://github.com/SPECFEM/specfem-data/blob/master/spiral1.4/<file>?raw=true
+wget https://github.com/SPECFEM/specfem-data/blob/main/spiral1.4/<file>?raw=true
 ```
 
 You might have to uncompress the files you want using the bunzip2 command.
